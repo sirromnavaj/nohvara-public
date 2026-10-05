@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nohvara-paths"
+version = "0.1.0"
+description = "Nohvara vault root and path resolution - the logic 765 modules copy-paste, as one versioned package"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
